@@ -1,0 +1,3 @@
+name = Finally
+description = Prevents content from being submitted with "finally" in the title.
+core = 7.x
