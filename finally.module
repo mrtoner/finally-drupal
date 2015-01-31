@@ -1,0 +1,6 @@
+<?php
+  function finally_node_validate($node, $form, $form_state){
+    if (stripos($node->title, 'finally')) {
+      form_set_error('title', t('"Finally" is not allowed in the title.'));
+    }
+  }
